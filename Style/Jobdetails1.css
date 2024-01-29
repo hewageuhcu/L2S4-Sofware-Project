@@ -1,0 +1,63 @@
+
+   /*footer text*/
+   .footer-text{
+    color: white;
+    position: absolute;
+  margin-left: 40%;
+  }
+  
+
+ 
+  
+  
+  
+  /* header tab */
+  .footer {
+  background: linear-gradient(to bottom, rgba(58, 69, 219, 0.758), rgb(20, 20, 133));
+  list-style: none;
+  height: 80px; 
+  width:100%;
+  color: white;
+  display: flex;
+  align-items: center; 
+  }
+  
+  /* title */
+  .title{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(102, 148, 235);
+    font-weight: bold;
+  }
+  
+  
+ 
+  
+  
+  /* buttons */
+  .column01 {
+ cursor: pointer;
+ float: left;
+ padding:10px;
+ box-sizing: border-box;
+ text-align: center;
+ margin-left: 30px;
+  
+  }
+  
+  .column2 {
+    float: right;
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 30px;
+    }
+
+    .column2down {
+float: right;
+padding:10px;
+box-sizing: border-box;
+text-align: center;
+margin-right: 30px;
+    }
+  
