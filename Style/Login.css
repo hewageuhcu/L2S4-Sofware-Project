@@ -1,0 +1,100 @@
+ /* sign in */
+  .text{
+    font-size: 50px;
+    text-align: center;
+  
+  color:rgb(102, 148, 235);
+    font-weight: bold;
+  }
+  /* icons and numbers to contact */
+  .column1 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  padding:10px;
+  margin-left: 20px;
+  }
+  
+  .column2{
+ display: inline;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+  margin-bottom: 10px;
+    background:rgb(88, 153, 239);
+    list-style: none;
+    height: 60px; 
+   
+    color: black;
+    display: flex;
+   
+  }
+  
+  
+  
+  /*footer text*/
+  .footer-text{
+    color: white;
+    position: absolute;
+  margin-left: 40%;
+  }
+  
+  /* sign in form and create account form */
+  .form{
+  margin-left: 40px;
+    font-size: 20px;
+  width: 200px;
+  }
+  /* footer */
+  .footer {
+    background:linear-gradient(to bottom, rgba(58, 69, 219, 0.758), rgb(20, 20, 133));
+    list-style: none;
+    height: 80px; 
+    width:100%;
+    color: white;
+    display: flex;
+    align-items: center; 
+   
+  }
+   /* content of the box */
+  
+   .box-content{
+    text-align: center;
+   display: block;
+   margin-right: 40px;
+   }
+  
+  .box {
+    display: flex;
+    width: 450px;
+    height: 20px;
+    background-color:white;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    padding: 20px;
+  align-items: center;
+    margin-bottom: 20px;
+    margin-left: 400px;
+  }
+  .box1 {
+    display: flex;
+    width: 450px;
+    height: 450px;
+    background-color:white;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+   margin-left: 400px;
+    margin-bottom: 20px;
+  }
+  .box-content1{
+    text-align: center;
+   display: block;
+   margin-right: 120px;
+   }
+  

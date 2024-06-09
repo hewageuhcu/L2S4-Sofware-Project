@@ -1,0 +1,123 @@
+.tab {
+    display: none;
+   
+  }
+  .tab-labels {
+    background: linear-gradient(to bottom, rgba(58, 69, 219, 0.758), rgb(20, 20, 133));
+    list-style: none;
+    height: 80px; 
+    color: white;
+    display: flex;
+    align-items: center; 
+   
+  }
+  .tab-label {
+   
+    margin-right:1px;
+    margin-left:150px;
+   cursor: pointer;
+    text-align: center;
+    
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  
+  
+  /*text on the wallpaper*/
+  .text-overlay {
+    position: center;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-280%, 100%);
+    font-size: 20px;
+    text-align: center;
+  position:absolute;
+  font-weight:500;
+    background-image: linear-gradient(to bottom, #120975, #473bf4);
+   
+    background-clip: text;
+    color: transparent;
+  }
+  
+  
+  /*find us on social media*/
+  .social{
+  font-size:18px;
+  font-weight: medium;
+  font-style: italic;
+  color: rgb(9, 6, 110);
+  margin-left: 10px;
+  }
+   
+  .columns {
+    display: flex;
+    position: relative;
+  }
+  
+  .column {
+    flex: 1; 
+    padding: 20px; 
+    border: none;
+    margin-left:20px;
+    cursor: pointer;
+   
+   }
+  
+  
+  /*footer text*/
+  .footer-text{
+    color: white;
+    position: absolute;
+  margin-left: 40%;
+  }
+  
+  
+  
+  
+  
+  /* slideshow */
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Show the active slide */
+  .mySlides.active {
+    display: block;
+  }
+  
+  /* Navigation dots container */
+  .dot-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for individual dots */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #8095fc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+   
+  }
+  
+  /* Active dot */
+  .dot.active {
+    background-color: #1a0fe6;
+  }
+  

@@ -1,0 +1,33 @@
+ 
+   
+.header-margin{
+  margin-top: 20px;
+}
+ .footer-margin{
+  margin-bottom: 20px;
+
+ }
+  
+    /*footer text*/
+    .footer-text{
+      color: white;
+      position: absolute;
+    margin-left: 40%;
+    }
+  
+    /* header tab */
+  .footer {
+    background: linear-gradient(to bottom, rgba(58, 69, 219, 0.758), rgb(20, 20, 133));
+    list-style: none;
+    height: 80px; 
+    width:100%;
+    color: white;
+    display: flex;
+    align-items: center; 
+   
+  
+  }
+ 
+  
+  
+ 
